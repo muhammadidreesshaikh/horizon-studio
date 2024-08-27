@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  overflow-x: hidden !important;
+  font-family: "Montserrat", sans-serif !important;
+  background: white;
+}
+
+:root {
+  --color-bg-blue: linear-gradient(90deg, rgba(19,19,121,1) 23%, rgba(237,58,58,1) 100%);
+  --color-red: #d51d30;
+  --color-black: #020202;
+  --color-gry: #b1b1b1;
+  --color-white: #ffff;
+  --color-blue: #178acc;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 !important;
+}
+
+a {
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+/* buttons */
+a.small-btn-blue {
+  padding: 7px 15px;
+  background-color: var(--color-blue);
+  border-radius: 5px;
+  color: var(--color-white);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+a.large-btn-blue {
+  padding: 10px 20px;
+  background-color: var(--color-blue);
+  border-radius: 5px;
+  color: var(--color-white);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+a.small-btn-red {
+  padding: 7px 15px;
+  background-color: var(--color-red);
+  border-radius: 5px;
+  color: var(--color-white);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+a.large-btn-red {
+  padding: 10px 20px;
+  background-color: var(--color-red);
+  border-radius: 5px;
+  color: var(--color-white);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* form-style */
+input::placeholder{
+  font-size: 14px;
+}
+
+label{
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media-query */
+@media screen and (max-width: 1920px) {}
+
+@media screen and (max-width: 1366px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 600px) {}
+
+@media screen and (max-width: 425px) {}

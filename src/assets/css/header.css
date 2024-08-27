@@ -1,0 +1,168 @@
+/* index.html-styling */
+.top-bar {
+    background-color: var(--color-white);
+    padding: 10px 0;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 5%);
+}
+
+.top-bar .logo{
+    padding-top: 6px;
+}
+
+.top-bar .logo a {
+    color: var(--color-black);
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.top-bar .nav-bar {
+    padding-top: 7px;
+    float: right;
+}
+
+.top-bar .nav-bar ul {
+    display: flex;
+    margin-bottom: 0;
+    list-style: none;
+    padding-left: 0;
+}
+
+.top-bar .nav-bar li a {
+    color: var(--color-black);
+    font-size: 15px;
+    padding: 0 15px;
+}
+
+.top-bar .nav-bar li a:hover {
+    transition: 0.5s;
+    opacity: 0.5s;
+    color: var(--color-red);
+}
+
+.top-bar .nav-bar .header-btn{
+    float: right;
+    margin-left: 10px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 50px;
+    right: 0;
+    background: var(--color-bg-blue);
+    overflow-x: hidden;
+    transition: 0.9s;
+}
+
+.sidenav.active {
+    width: 100%;
+}
+
+.sidenav ul {
+    list-style: none;
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.sidenav ul a {
+    padding-left: 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: black;
+}
+
+/* X menu btn */
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 4px;
+    border-radius: 8px;
+    background-color: black;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.toggleMenu {
+    position: absolute;
+    top: 6px;
+    right: 4%;
+    z-index: 1;
+    display: none;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.mobile-nav {
+    display: none;
+}
+
+@media screen and (max-width: 1920px) {}
+
+@media screen and (max-width: 1366px) {}
+
+@media screen and (max-width: 768px) {
+    .toggleMenu {
+        display: block;
+    }
+
+    .mobile-nav {
+        display: block;
+    }
+
+    .top-bar .nav-bar {
+        display: none;
+    }
+
+    .sidenav ul {
+        padding-left: 0;
+    }
+
+    .sidenav ul li {
+        padding-top: 15px;
+    }
+
+    .sidenav ul a {
+        font-size: 20px;
+    }
+
+    .header-btn{
+        padding: 0 15px;
+        text-align: center;
+        margin-top: 23px;
+    }
+}
+
+@media screen and (max-width: 600px) {}
+
+@media screen and (max-width: 425px) {}

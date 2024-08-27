@@ -1,0 +1,51 @@
+.main-heading {
+    padding: 55px 0 15px 0;
+}
+
+.main-heading h1 {
+    font-size: 8.5rem;
+    font-weight: 800;
+    color: var(--color-black);
+}
+
+.main-heading span {
+    font-weight: 400;
+}
+
+.main-heading p {
+    float: right;
+    font-size: 15px;
+    color: var(--color-black);
+}
+
+.slider{
+    background-image: url(../img/bg-img.webp);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.slider .slider-text{
+
+}
+
+.slider .slider-text .inverted-comma{
+
+}
+
+.slider .slider-text .inverted-comma h1{
+
+}
+
+.slider .slider-text .text {
+
+}
+
+.slider .slider-text .text p{
+
+}

@@ -1,0 +1,77 @@
+.footer{
+    background-image: url(../img/login-bg1.avif);
+    width: 100%;
+    padding-top: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: soft-light;
+    background-color: #000000e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--color-white);
+}
+
+.footer p{
+    color: var(--color-gry);
+    padding-top: 5px;
+    font-size: 13px;
+}
+
+.footer .social-icons{
+    margin-top: 15px;
+}
+
+.footer .social-icons a{
+    color: var(--color-red);
+}
+
+.footer h3{
+    color: var(--color-white);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer ul{
+    margin-bottom: 0;
+    padding: 5px 0px 0 0;
+    list-style: none;
+}
+
+.footer li{
+    padding-top: 8px;
+}
+
+.footer li a{
+    color: var(--color-white);
+    font-size: 14px;
+}
+
+.footer li a:hover{
+    color: var(--color-red);
+    transition: 0.5s;
+}
+
+.footer .footer-inner{
+    padding-bottom: 30px;
+}
+
+.footer .footer-bottom{
+    border-top: 1px solid #202020;
+    padding: 15px 0;
+}
+
+.footer .footer-bottom p{
+    font-size: 13px;
+    color: var(--color-gry);
+    text-align: center;
+    padding-top: 0;
+}
+
