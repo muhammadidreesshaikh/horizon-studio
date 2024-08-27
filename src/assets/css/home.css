@@ -25,27 +25,32 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+    position: relative;
 }
 
 .slider .slider-text{
-
-}
-
-.slider .slider-text .inverted-comma{
-
+    position: absolute;
+    bottom: 60px;
+    right: 30px;
+    width: 25%;
+    display: flex;
 }
 
 .slider .slider-text .inverted-comma h1{
-
-}
-
-.slider .slider-text .text {
-
+    font-size: 5rem;
+    padding-right: 20px;
+    color: var(--color-white);
 }
 
 .slider .slider-text .text p{
+    font-size: 12px;
+    color: var(--color-white);
+}
 
+.slider .slider-text .text h4{
+    font-size: 25px;
+    color: var(--color-white);
+    font-weight: 500;
+    padding-top: 15px;
+    font-family: cursive;
 }
