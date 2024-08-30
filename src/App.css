@@ -9,6 +9,7 @@ body {
   --color-bg-blue: linear-gradient(90deg, rgba(19,19,121,1) 23%, rgba(237,58,58,1) 100%);
   --color-red: #d51d30;
   --color-black: #020202;
+  --color-light-black: #333333;
   --color-gry: #b1b1b1;
   --color-white: #ffff;
   --color-blue: #178acc;
@@ -27,6 +28,11 @@ h6 {
 a {
   text-decoration: none !important;
   cursor: pointer;
+}
+
+/* custom-container */
+.container-space {
+  padding: 0 30px;
 }
 
 /* buttons */
@@ -64,15 +70,6 @@ a.large-btn-red {
   color: var(--color-white);
   font-size: 16px;
   font-weight: 500;
-}
-
-/* form-style */
-input::placeholder{
-  font-size: 14px;
-}
-
-label{
-  font-size: 14px;
 }
 
 
