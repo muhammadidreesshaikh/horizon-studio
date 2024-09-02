@@ -36,41 +36,27 @@ a {
 }
 
 /* buttons */
-a.small-btn-blue {
-  padding: 7px 15px;
-  background-color: var(--color-blue);
-  border-radius: 5px;
-  color: var(--color-white);
+a.custom-btn {
+  border: 1px solid var(--color-light-black);
+  border-radius: 20px;
+  padding: 7px 20px;
   font-size: 14px;
-  font-weight: 500;
+  color: var(--color-light-black);
+  text-transform: uppercase;
 }
 
-a.large-btn-blue {
-  padding: 10px 20px;
-  background-color: var(--color-blue);
-  border-radius: 5px;
+a.custom-btn:hover{
+  background-color: var(--color-light-black);
   color: var(--color-white);
-  font-size: 16px;
-  font-weight: 500;
+  transition: 0.5s;
 }
 
-a.small-btn-red {
-  padding: 7px 15px;
-  background-color: var(--color-red);
-  border-radius: 5px;
-  color: var(--color-white);
-  font-size: 14px;
-  font-weight: 500;
+/* divider-gap */
+hr.divider-gap{
+  border-width: 10px;
+  color: var(--color-light-black);
 }
 
-a.large-btn-red {
-  padding: 10px 20px;
-  background-color: var(--color-red);
-  border-radius: 5px;
-  color: var(--color-white);
-  font-size: 16px;
-  font-weight: 500;
-}
 
 
 
